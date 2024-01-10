@@ -1,82 +1,82 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Paul Combaldieu | Full-stack developer portfolio",
+		name: "Paul Combaldieu",
+		email: "paul.combldieu@gmail.com",
 		logo: "../logo.png",
 	},
-
+	
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/PaulCombal",
+		linkedin: "https://linkedin.com/in/paul-combaldieu",
 		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
+		stackoverflow: "https://stackoverflow.com/users/3001271/yhu420",
 		facebook: "https://facebook.com/",
 	},
-
+	
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack web and mobile app development, just how you imagined.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+		"I am a French backend developer with expertise in various technologies. During my professional journey, I gained experience in building scalable, secure and reliable web applications using various frameworks and technologies. I am now looking for a new challenge in development, as a full-remote developer for meaningful projects.",
 	},
-
+	
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "A one-person team on a human scale.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		"I was born with the dream of understanding how computers could possibly work and how I could make them work the way I wanted them to. With that came interest, passion, and I eventually turned my passion into my job. Over the past few years, I have had the opportunity to study and graduate for a degree in engineering while working as a developer for various startups in different fields. I listened to my gut and moved into project management and consulting services for larger global companies, where I gained amazing human experience for 3 years. Now that that is behind me, I have decided to take on a technical challenge again, remotely. I am currently available for hire or to take on freelance projects, in any case feel free to reach out via any social platform or email.",
 	},
-
+	
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "There might not be much here, but wait, this section will grow with my experience!",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+		"Chronlogical colleoction of my long-form thoughts, my realisations, and more.",
 	},
-
+	
 	projects: [
 		{
-			title: "Project 1",
+			title: "IT Consultant",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			"External resource within an international retail firm, focused on application and data migration to cloud technologies.",
+			logo: "./suit.png",
+			linkText: "View on Linkedin",
+			link: "https://www.linkedin.com/in/paul-combaldieu",
 		},
-
+		
 		{
-			title: "Project 2",
+			title: "Innovation project manager",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			"Research and development around new & emerging technologies of interest. Introduction of new tools in business processes.",
+			logo: "./innovation.png",
+			linkText: "View on Linkedin",
+			link: "https://www.linkedin.com/in/paul-combaldieu",
 		},
-
+		
 		{
-			title: "Project 3",
+			title: "Fullstack web developer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			"Completing a team of young and ambitious entrepreneurs, creating their startup in the sports domain.",
+			logo: "./data.png",
+			linkText: "View on Linkedin",
+			link: "https://www.linkedin.com/in/paul-combaldieu",
 		},
-
+		
 		{
-			title: "Project 4",
+			title: "Fullstack web developer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			"Not my first work experience, but the first time I faced real-world technical challenges, working surrounded by professionals.",
+			logo: "./data.png",
+			linkText: "View on Linkedin",
+			link: "https://www.linkedin.com/in/paul-combaldieu",
 		},
-
+		
 		{
-			title: "Project 5",
+			title: "Software & open-source projects",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			"Projects that stemmed out of passion for clean open-source code and brain-heating challenges.",
+			logo: "./programmer.png",
+			linkText: "View on Github",
+			link: "https://github.com/PaulCombal",
 		},
 	],
 };

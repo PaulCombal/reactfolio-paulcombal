@@ -16,12 +16,12 @@ const Projects = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "projects");
+	const currentSEO = SEO.find((item) => item.page === "experiences");
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`Experiences | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -39,24 +39,24 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Some of the best experiences, for me, for the company, and for you.
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							I've worked on a variety of projects over the years and I'm proud of the progress I've made. 
+							Many of those are open-source and available for others to explore and contribute to, but the
+							most recent ones were done on behalf of companies acting on the competitive market of the tech industry.
+							<br/>
+							As I was exploring other areas than programming, I saw myself as an innovation project manager and a 
+							consultant, but my appetite for technical challenge has come back. I am now looking to undertake 
+							programming tasks with my favourite technologies, or any other as long as I can work in a team 
+							sharing the same passion to perform.
+							<br/>
+							My favourite picks for the web include Symfony for the backend, and React, Vue, or simply JS Web Components for the frontend.
+							Being passionate about how computers work as a whole, I am also eager to take on scripting, or traditional software develoment.
 						</div>
 
-						<div className="projects-list">
+						<div className="projects-list" style={{paddingTop: "2em"}}>
 							<AllProjects />
 						</div>
 					</div>

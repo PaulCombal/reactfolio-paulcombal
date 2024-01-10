@@ -9,7 +9,9 @@
 /coverage
 
 # production
-/build
+# Just keep the build dir for gh pages
+# Let's improve with GH actions later
+#/build
 
 # misc
 .DS_Store

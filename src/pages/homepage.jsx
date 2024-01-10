@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faClockRotateLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
+//	faTwitter,
 	faGithub,
 	faStackOverflow,
-	faInstagram,
+//	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -104,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="dev.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -114,7 +114,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
+							{/* <a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
@@ -123,7 +123,7 @@ const Homepage = () => {
 									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -144,7 +144,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/* <a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
@@ -153,7 +153,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -167,6 +167,12 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
+							<div style={{display: "flex"}}>
+								<div className="card-icon">
+								<FontAwesomeIcon icon={faClockRotateLeft} className="card-icon"></FontAwesomeIcon>
+								</div>
+								<div style={{fontWeight: 600, color: "var(--secondary-color)", paddingLeft: "20px"}}>Recent experiences</div>
+							</div>
 							<AllProjects />
 						</div>
 
